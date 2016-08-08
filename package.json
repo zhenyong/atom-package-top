@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "List most popular Atom packages",
   "main": "index.js",
-  "scripts":{
+  "scripts": {
     "spider": "babel-node spider/main.js"
   },
   "devDependencies": {
@@ -22,12 +22,10 @@
     "eslint-plugin-import": "^1.12.0"
   },
   "dependencies": {
+    "cheerio": "^0.20.0",
     "got": "^6.3.0",
     "mkdirp": "^0.5.1",
     "moment": "^2.14.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
